@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHydra.Console", "SHydra.Console\SHydra.Console.csproj", "{C45BE01E-1D98-4917-8A1D-308E0D462FBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C45BE01E-1D98-4917-8A1D-308E0D462FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45BE01E-1D98-4917-8A1D-308E0D462FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45BE01E-1D98-4917-8A1D-308E0D462FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45BE01E-1D98-4917-8A1D-308E0D462FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FF8BC70-79D0-43E4-927F-5958F508DADA}
+	EndGlobalSection
+EndGlobal
