@@ -56,7 +56,7 @@ namespace SHydra
                             password: password, 
                             tempStorageProvider: new MemoryStorageProvider(), 
                             bufferSize: 81920, 
-                            fileGroupSize: 1024 * 10245
+                            fileGroupSize: 1024 * 1024
                         ));
                     ConsoleLogger.LogMessage($"Operation succeeded. File saved at {fileOutputLocation}");
                 }
@@ -108,7 +108,7 @@ namespace SHydra
                             password: password, 
                             tempStorageProvider: new MemoryStorageProvider(), 
                             bufferSize: 81920, 
-                            fileGroupSize: 1024 * 10245
+                            fileGroupSize: 1024 * 1024
                         ));
 
                     ConsoleLogger.LogMessage($"Operation succeeded. File saved at {fileOutputLocation}");
