@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SHydra.Console
+namespace SHydra
 {
     class Program
     {
         static void Main(string[] args)
         {
             CommandHandler.ExecuteCommand(args);
+            
         }
     }
 }
