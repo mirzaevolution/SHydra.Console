@@ -11,6 +11,7 @@ namespace SHydra
     {
         public static void ExecuteCommand(string[] args)
         {
+            Console.Title = "SteganoHydra v1.0.1";
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             ParseCommand(args).Wait();
@@ -269,8 +270,9 @@ namespace SHydra
         private static void WelcomeScreen()
         {
             Console.WriteLine("========================================");
-            Console.WriteLine("         SteganoHydra v1.0.1           ");
-            Console.WriteLine("   Created by: Mirza Ghulam Rasyid     ");
+            Console.WriteLine("         ~SteganoHydra v1.0.1~          ");
+            Console.WriteLine("             CLI Version                ");
+            Console.WriteLine("    Created by: Mirza Ghulam Rasyid     ");
             Console.WriteLine("========================================");
 
             Console.WriteLine();
@@ -286,6 +288,12 @@ namespace SHydra
             Console.WriteLine("########################################");
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkYellow;
+
+
+            Console.WriteLine();
+
+            ConsoleLogger.LogMessage("Getting help", "!");
+            ConsoleLogger.LogMessage(" shydra.exe -h");
 
             Console.WriteLine();
 
