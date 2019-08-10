@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using Pixelator.Api;
-using Pixelator.Api.Configuration;
 using Pixelator.Api.Utility;
+using Pixelator.Api.Exceptions;
+using Pixelator.Api.Configuration;
 using Input = Pixelator.Api.Input;
 using Output = Pixelator.Api.Output;
-using Pixelator.Api.Exceptions;
 
 namespace SHydra
 {
