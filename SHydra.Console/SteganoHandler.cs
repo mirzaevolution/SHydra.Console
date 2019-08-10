@@ -10,6 +10,7 @@ using Pixelator.Api.Configuration;
 using Pixelator.Api.Utility;
 using Input = Pixelator.Api.Input;
 using Output = Pixelator.Api.Output;
+using Pixelator.Api.Exceptions;
 
 namespace SHydra
 {
@@ -161,6 +162,10 @@ namespace SHydra
                     await decoder.DecodeAsync(outputHandler: handler);
                 }
             }
+            catch (InvalidPasswordException)
+            {
+                ConsoleLogger.ShowErrorMessage("Invalid password");
+            }
             catch (Exception ex)
             {
                 ConsoleLogger.ShowErrorMessage(ex.Message);
@@ -215,6 +220,11 @@ namespace SHydra
                     ConsoleLogger.LogMessage("Start decoding image, extracting payload...");
                     await decoder.DecodeAsync(outputHandler: handler);
                 }
+            }
+
+            catch (InvalidPasswordException)
+            {
+                ConsoleLogger.ShowErrorMessage("Invalid password");
             }
             catch (Exception ex)
             {
