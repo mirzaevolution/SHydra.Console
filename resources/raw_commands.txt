@@ -1,0 +1,29 @@
+Stegano-Hydra v1.0
+
+
+
+Embed text string into an image 
+shydra.exe -em -i <input_image.png> -o <output_image.png>  -s <message> -p <your_password>
+example: 
+	- shydra.exe -em -i "D:\pictures\sample.png" -o "D:\output\sample.png" -s "Hello World" -p @Pa$sw0rd
+
+Embed a file into an image
+shydra.exe -em -i <input_image.png> -o <output_image.png>  -f <file.ext> -p <your_password>
+examples: 
+	- shydra.exe -em -i "D:\pictures\sample.png" -o "D:\output\sample.png" -f "D:\profile.pdf" -p @Pa$sw0rd
+	- shydra.exe -em -i "D:\pictures\sample.png" -o "D:\output\sample.png" -f "D:\profile_picture.png" -p @Pa$sw0rd
+
+Embed files inside a folder into an image
+shydra.exe -em -i <input_image.png> -o <output_image.png> -d <folder_path> -p <your_password>
+example:
+	- shydra.exe -em -i "D:\pictures\sample.png" -o "D:\output\sample.png" -d "D:\documents" -p @Pa$sw0rd
+
+Extract text string from an image
+shydra.exe -ex -i <input_image.png> -p <your_password> -s
+example:
+	- shydra.exe -ex -i "D:\output\encoded-image.png" -p @Pa$sw0rd -s
+
+Extract file(s) from an image
+shydra.exe -ex -i <input_image.png> -p <your_password> -d <folder_path_to_extract>
+example:
+	- shydra.exe -ex -i "D:\output\encoded-image.png" -p @Pa$sw0rd -d "D:\extractions"
