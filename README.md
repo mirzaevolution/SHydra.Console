@@ -1,7 +1,9 @@
 # SteganoHydra v.1.0.1
+![SteganoHydra](https://raw.githubusercontent.com/mirzaevolution/SHydra.Console/master/resources/images/header.PNG)
 
 **SteganoHydra** is a lightweight tool for performing Steganography operations combined with Cryptography for data security of the payload. This tool supports embedding text string as well as multiple files into a single PNG image. The security itself uses AES-256 with 20,000 iterations for the user password. 
 **SteganoHydra** supports 3 operations. They are message (string) embedding, single file embedding and multiple files embedding (must specify the name of the target folder).
+
 
 #### Switch Descriptions
 
@@ -86,6 +88,5 @@ shydra.exe -em -i "G:\Samples\Input\picture3.png" -o "G:\Samples\Output\picture3
 shydra -ex -i "G:\Samples\Output\picture3_stegafied.png" -d "G:\extract" -p PWD!@#$!@
 ```
 ![Extracted-Files](https://github.com/mirzaevolution/SHydra.Console/blob/master/resources/images/source-files2.PNG?raw=true)
-
 
 ### Created by: [Mirza Ghulam Rasyid](https://linkedin.com/in/mirzaghulamrasyid/)
