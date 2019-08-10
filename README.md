@@ -23,7 +23,7 @@
 | | -d "folder_location" | Extract files from input image/stegafied PNG image|
 
 
-OK, here are a couple of examples of SteganoHydra Operations.
+OK, here are some examples of SteganoHydra Operations.
 
 ### Embedding a text message into a single PNG image.
 
