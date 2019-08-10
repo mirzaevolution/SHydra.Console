@@ -38,7 +38,7 @@ shydra.exe -em -i "G:\Samples\input\picture1.PNG" -o "G:\Samples\output\picture1
 
 ![Output 1](https://github.com/mirzaevolution/SHydra.Console/blob/master/resources/images/picture1_stegafied.PNG?raw=true)
 
-**Extracted Message:**
+**Extract String Message:**
 ```powershell
 shydra -ex -i "G:\samples\output\picture1_stegafied.png" -s -p future
 ```
