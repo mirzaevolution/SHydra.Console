@@ -27,7 +27,7 @@ OK, here are some examples of SteganoHydra Operations.
 
 ### Embedding a text message into a single PNG image.
 
-This command embed any kind of string you put inside double quotes "<string>" to any PNG image you selected. Like any other commands, you need to specify a password to protect the payload data.
+This command embeds any kind of string you put inside double quotes "<string>" to any PNG image you selected. Like any other commands, you need to specify a password to protect the payload data.
 
 ```powershell
 shydra.exe -em -i "G:\Samples\input\picture1.PNG" -o "G:\Samples\output\picture1_stegafied.PNG" -s "Hello World. I am MIRZA GHULAM RASYID" -p future
@@ -90,3 +90,4 @@ shydra -ex -i "G:\Samples\Output\picture3_stegafied.png" -d "G:\extract" -p PWD!
 ![Extracted-Files](https://github.com/mirzaevolution/SHydra.Console/blob/master/resources/images/source-files2.PNG?raw=true)
 
 ### Created by: [Mirza Ghulam Rasyid](https://linkedin.com/in/mirzaghulamrasyid/)
+ 
